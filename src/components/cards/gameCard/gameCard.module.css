@@ -1,0 +1,37 @@
+.gamecard {
+    background: #2983AA;
+    display: flex;
+}
+
+.info {
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.info h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info p {
+    color: #C7C7C7;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    flex: 1;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.preco h2 {
+    color: #BEE814;
+    font-size: 32px;
+}

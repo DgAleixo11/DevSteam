@@ -15,7 +15,7 @@ export default function SaleCard () {
                         <h4>R$79,92</h4>
                     </div>
                 </div>
-                <Button>Adicionar ao carrinho</Button>
+                <Button fullWidth={true}>Adicionar ao carrinho</Button>
             </div>
         </div>
     )
