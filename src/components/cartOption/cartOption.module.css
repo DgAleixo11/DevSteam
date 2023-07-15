@@ -1,0 +1,28 @@
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.info h3 {
+    font-size: 16px;
+}
+
+.price {
+    color: #BEEB14;
+}
+
+.info p {
+    color: #F00000;
+    font-size: 12px;
+    font-style: italic;
+    cursor: pointer;
+}
