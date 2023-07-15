@@ -27,14 +27,20 @@ export default function Home() {
             <SaleCard
               imagem={'league-of-legends.jpg'}
               desconto='30%'
+              preco='199,90'
+              precoComDesconto='99,90'
             />
             <SaleCard
               imagem={'dota-2.jpg'}
               desconto='40%'
+              preco='299,90'
+              precoComDesconto='109,90'
             />
             <SaleCard
               imagem={'valorant.jpg'}
               desconto='50%'
+              preco='399,90'
+              precoComDesconto='209,90'
             />
           </div>
           <div className={styles.sessao}>
