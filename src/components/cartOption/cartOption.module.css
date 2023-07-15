@@ -26,3 +26,7 @@
     font-style: italic;
     cursor: pointer;
 }
+
+.imagem {
+    object-fit: contain;
+}
